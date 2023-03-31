@@ -1,0 +1,288 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
+
+.page-one {
+  width: 100%;
+  height: 100vh;
+  background-color: #87509c;
+}
+.page-one header {
+  width: 100%;
+  height: 20vh;
+}
+.page-one header .logo {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-one header nav ul {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  float: right;
+}
+.page-one header nav ul li {
+  list-style-type: none;
+  color: aliceblue;
+  cursor: pointer;
+  font-family: Titillium Web;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-weight: bold;
+}
+.page-one main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80vh;
+  font-size: 20px;
+}
+.page-one main h1 {
+  width: 70%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42.1529px;
+  line-height: 64px;
+  text-align: center;
+  color: #f7f3ea;
+  padding: 25px;
+}
+.page-one main button {
+  width: 300px;
+  height: 70px;
+  background-color: #eb7d4b;
+  border: none;
+  outline: none;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18.0002px;
+  line-height: 27px;
+  color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.75);
+}
+
+.page-two {
+  width: 100%;
+  height: 100vh;
+  background-color: #17C2A4;
+}
+.page-two .text {
+  padding-top: 100px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.page-two .text h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 61px;
+  color: #FFFFFF;
+}
+.page-two .text span {
+  width: 630px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 27px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.page-two .cards {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.page-two .cards .card {
+  height: 72px;
+  width: 190px;
+  left: 195px;
+  top: 1149px;
+  border-radius: nullpx;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.page-two .cards .card h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 37px;
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+.page-three {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(231, 241, 248);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.page-three .text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 62px;
+  /* identical to box height */
+  text-align: center;
+  color: #3C4761;
+}
+.page-three .cardss {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.page-three .cardss .card {
+  height: 200px;
+  width: 300px;
+  left: 760px;
+  top: 1640px;
+  border-radius: 0px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 37px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.page-three .cardss .card .icons i {
+  color: #BDD1DF;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 6px;
+}
+.page-three .cardss .card .text {
+  color: #3C4761;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+.page-three .cardss .card .text h2 {
+  font-weight: bold;
+}
+.page-three .cardss .card .text p {
+  color: #30BAE7;
+  font-family: Titillium Web;
+}
+.page-three .cardss .card .text span {
+  font-family: Titillium Web;
+  font-weight: bold;
+}
+
+.page-four {
+  width: 100%;
+  height: 150vh;
+  background-color: #FFDD99;
+}
+.page-four .text {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.page-four .text p {
+  width: 40%;
+  margin: 10px;
+}
+.page-four .text h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 61px;
+  text-align: center;
+  color: #393939;
+}
+.page-four .text p {
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  font-weight: bold;
+  color: #393939;
+}
+.page-four .cards {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.page-four .cards .card {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page-four .cards .card p {
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #393939;
+  padding: 26px;
+}
+.page-four .cards button {
+  height: 70px;
+  width: 293px;
+  left: 574px;
+  top: 4156px;
+  border-radius: 0px;
+  background-color: #17C2A4;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18.0002px;
+  line-height: 27px;
+  color: #FFFFFF;
+  border: none;
+  outline: none;
+  box-shadow: 5px 5px 5px 0px rgba(5, 5, 5, 0.75);
+}/*# sourceMappingURL=index.css.map */
